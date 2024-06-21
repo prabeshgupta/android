@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -28,20 +29,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void disableButton(View v){
-//        Generic view
-//        v.setEnabled(false);
-//        Button b = (Button) v;
-//        b.setText("Disabled");
+/*        Generic view
+        v.setEnabled(false);
+        Button b = (Button) v;
+        b.setText("Disabled");
 
-//        Specific view
-//        View myView = findViewById(R.id.btn_no);
-//        TypeCasting
-//        Button myButton = (Button) myView;
-//        myButton.setText("Nope");
+        Specific view
+        View myView = findViewById(R.id.btn_no);
+        TypeCasting
+        Button myButton = (Button) myView;
+        myButton.setText("Nope");
 
-//        Direct casting
-//        ((Button) findViewById(R.id.btn_no)).setText("Big No");
-//        Log.d("Success", "Button Disabled");
+        Direct casting
+        ((Button) findViewById(R.id.btn_no)).setText("Big No");
+        Log.d("Success", "Button Disabled");
+ */
     }
 
     public void userInput(View v){
@@ -55,5 +57,10 @@ public class MainActivity extends AppCompatActivity {
 
 //        Display alert
         Toast.makeText(this,userTxt,Toast.LENGTH_LONG).show();
+    }
+
+    public void changeActivity(View v){
+        Intent i = new Intent(this, MainActivity2.class);
+        startActivity(i);
     }
 }
