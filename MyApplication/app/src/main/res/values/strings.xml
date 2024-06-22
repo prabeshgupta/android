@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="hello">Hello Android Developer!</string>
+    <string name="hello">Hello Android Developer!</string>s
+    <string name="submit">Submit</string>
+    <string name="change_activitiy">Change Activity</string>
+    <string name="preview">Preview</string>
+    <string name="name">Name</string>
 </resources>

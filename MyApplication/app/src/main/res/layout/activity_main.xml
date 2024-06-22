@@ -38,30 +38,32 @@
         android:id="@+id/nameInputField"
         android:layout_width="match_parent"
         android:layout_height="86dp"
+        android:autofillHints="Name"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="@string/name"
+         />
 
     <Button
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="userInput"
-        android:text="Submit" />
+        android:text="@string/submit" />
 
     <TextView
         android:id="@+id/showOutput"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="TextView"
-        android:textSize="16sp"/>
+        android:text="@string/preview"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/changeActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="changeActivity"
-        android:text="Change Activity" />
+        android:text="@string/change_activitiy" />
 
 
 </LinearLayout>
