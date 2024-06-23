@@ -64,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeActivity(View v){
         Intent i = new Intent(this, MainActivity2.class);
+//        Fetch data of editText
+        String inputData  =  ((EditText)findViewById(R.id.nameInputField)).getText().toString();
+//        Send data to another activity
+        i.putExtra("data", inputData);
         startActivity(i);
     }
 }
