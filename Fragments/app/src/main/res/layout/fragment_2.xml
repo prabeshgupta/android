@@ -3,16 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellow"
+    android:background="@android:color/holo_orange_light"
     tools:context=".Fragment2">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/changeTxtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment 1"
+        android:text="Text from Fragment 1"
         android:textSize="30sp"
         android:layout_centerInParent="true"
-        android:textColor="@color/black"
-        />
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive"
+        android:layout_below="@id/changeTxtView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
 </RelativeLayout>

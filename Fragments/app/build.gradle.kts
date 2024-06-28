@@ -31,8 +31,10 @@ android {
     }
 }
 
+// Android section with dependencies
 dependencies {
 
+    // Other dependencies
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
