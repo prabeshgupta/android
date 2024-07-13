@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VS Application</string>
+    <string name="welcome">\nWelcome to VS Application\n</string>
+    <string name="mobileApp">This is our official mobile app.</string>
+</resources>
