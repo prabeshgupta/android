@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Combined Component</string>
+    <string-array name="countries">
+        <item>Nepal</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Thailand</item>
+    </string-array>
+</resources>
