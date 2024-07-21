@@ -28,6 +28,5 @@ public class MainActivity2 extends AppCompatActivity {
 
         String name = getIntent().getStringExtra("name");
         textView.setText(name);
-
     }
 }
