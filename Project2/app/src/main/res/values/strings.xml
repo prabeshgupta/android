@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project 2</string>
+    <string-array name="city">
+        <item>Kathmandu</item>
+        <item>Bhaktapur</item>
+        <item>Lalitpur</item>
+        <item>Mahottari</item>
+    </string-array>
+</resources>
